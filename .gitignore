@@ -1,0 +1,25 @@
+# Kubernetes / Helm
+*.tgz
+charts/
+kubeconfig
+*.kubeconfig
+
+# Secrets & tokens — never commit these
+*token*.txt
+*.token
+*secret*.yaml
+.env
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Logs & temp
+*.log
+tmp/
+*.tmp

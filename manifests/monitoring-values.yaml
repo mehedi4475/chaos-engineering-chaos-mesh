@@ -1,0 +1,13 @@
+alertmanager:
+  enabled: false
+
+grafana:
+  adminPassword: admin
+
+prometheus:
+  prometheusSpec:
+    retention: 6h
+    resources:
+      requests:
+        cpu: 200m
+        memory: 400Mi
